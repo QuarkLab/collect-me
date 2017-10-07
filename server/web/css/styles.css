@@ -59,7 +59,7 @@ html, body {
       -ms-flex-pack: end;
           justify-content: flex-end;
   padding: 16px;
-  height: 151px;
+  height: 130px;
 }
 .demo-avatar-dropdown {
   display: -webkit-flex;
@@ -73,6 +73,7 @@ html, body {
       -ms-flex-align: center;
           align-items: center;
   width: 100%;
+  padding-top: 10px;
 }
 
 .demo-navigation {
@@ -212,4 +213,9 @@ _:-ms-input-placeholder, :root .demo-graph {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.main-logo {
+  height: 48px;
+  width: 48px;
 }
