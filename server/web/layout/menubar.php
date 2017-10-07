@@ -18,11 +18,12 @@
           </div>
         </header>
         <nav class="demo-navigation mdl-navigation mdl-color--black">
-          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--green-400 material-icons" role="presentation">find_in_page</i>Browse</a>
-          <a class="mdl-navigation__link" href="/"><i class="mdl-color-text--green-400 material-icons" role="presentation">inbox</i>Inbox</a>
-          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--green-400 material-icons" role="presentation">delete</i>Trash</a>
-          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--green-400 material-icons" role="presentation">report</i>Spam</a>
-          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--green-400 material-icons" role="presentation">forum</i>Forums</a>
+          <a class="mdl-navigation__link" href="index.php"><i class="mdl-color-text--green-400 material-icons" role="presentation">find_in_page</i>Browse</a>
+          <!-- <a class="mdl-navigation__link" href="stats.php"><i class="mdl-color-text--green-400 material-icons" role="presentation">place</i>Locations</a> -->
+          <a class="mdl-navigation__link" href="stats.php"><i class="mdl-color-text--green-400 material-icons" role="presentation">trending_up</i>Stats</a>
+          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--green-400 material-icons" role="presentation">monetization_on</i>Payments</a>
+          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--green-400 material-icons" role="presentation">library_books</i>History</a>
+          <a class="mdl-navigation__link" href=""><i class="mdl-color-text--green-400 material-icons" role="presentation">live_help</i>Help</a>
           <!-- <a class="mdl-navigation__link" href=""><i class="mdl-color-text--green-400 material-icons" role="presentation">flag</i>Updates</a>
           <a class="mdl-navigation__link" href=""><i class="mdl-color-text--green-400 material-icons" role="presentation">local_offer</i>Promos</a>
           <a class="mdl-navigation__link" href=""><i class="mdl-color-text--green-400 material-icons" role="presentation">shopping_cart</i>Purchases</a>

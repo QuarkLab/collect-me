@@ -50,6 +50,31 @@
         <div class="mdl-layout__header-row">
           <span class="mdl-layout-title"> <?php echo $GLOBALS['title']; ?> </span>
           <div class="mdl-layout-spacer"></div>
+
+<?php if ($GLOBALS['filter'] == true) { ?>
+          <div class="dropdown" style="float:right;">
+            <button class="dropbtn mdl-color--grey-800">Filter</button>
+            <div class="dropdown-content">
+              <label class="container">Glass
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Metal
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Paper
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container">Glass
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+              </label>
+            </div>
+          </div>
+<?php } ?>
+
           <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
             <label class="mdl-button mdl-js-button mdl-button--icon" for="search">
               <i class="material-icons">search</i>
