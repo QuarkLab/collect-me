@@ -56,19 +56,19 @@
             <button class="dropbtn mdl-color--grey-800">Filter</button>
             <div class="dropdown-content">
               <label class="container">Glass
-                <input type="checkbox" checked="checked">
+                <input id='chk-glass' type="checkbox" checked="checked" onclick="initMap()">
                 <span class="checkmark"></span>
               </label>
               <label class="container">Metal
-                <input type="checkbox" checked="checked">
+                <input id='chk-metal' type="checkbox" checked="checked" onclick="initMap()">
                 <span class="checkmark"></span>
               </label>
               <label class="container">Paper
-                <input type="checkbox" checked="checked">
+                <input id='chk-paper' type="checkbox" checked="checked" onclick="initMap()">
                 <span class="checkmark"></span>
               </label>
-              <label class="container">Glass
-                <input type="checkbox" checked="checked">
+              <label class="container">Plastic
+                <input id='chk-plastic' type="checkbox" checked="checked" onclick="initMap()">
                 <span class="checkmark"></span>
               </label>
             </div>
