@@ -20,7 +20,6 @@ export class TabsPage {
   walletRoot = 'WalletPage'
   profileRoot = 'ProfilePage'
 
-
   constructor(public navCtrl: NavController) {}
 
 }
