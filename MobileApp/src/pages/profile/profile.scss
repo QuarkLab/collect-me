@@ -1,3 +1,48 @@
 page-profile {
+    #prof-img{
+        background: transparent;
+        width: auto;
+        margin: auto;
+        display: block;
+        margin-top: 20px;
+    }
 
+    #garbage-tbl{
+        margin-top: 30px;
+    }
+
+    .g-head{
+        padding-left: 70px;
+        padding-right: 10px;
+        font-size: 10px;
+    }
+
+    .g-data{
+        font-size: 10px;
+    }
+
+    #prof-tbl{
+        margin-top: 15px;
+    }
+
+    .tbl-head{
+        padding-left: 5px;
+        padding-right: 20px;
+    }
+
+    .tbl-data{
+        color: #546E7A;
+        vertical-align: top;
+        font-size: 13px;
+    }
+
+    .tbl-head, .tbl-data{
+    }
+
+    #save-btn{
+        width: auto;
+        margin: auto;
+        display: block;
+        margin-top: 10px;
+    }
 }

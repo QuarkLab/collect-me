@@ -51,7 +51,7 @@ export class MapPage {
 
     var options = {
       center: this.location,
-      zoom: 16,
+      zoom: 17,
       streetViewControl: false,
       mapTypeId: 'roadmap'
     }
