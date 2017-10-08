@@ -1,9 +1,39 @@
 <main class="mdl-layout__content mdl-color--grey-100">
   <div class="mdl-grid demo-content">
+    <p class="mdl-cell--12-col stat-title">COLLECTED</p> <br>
     <div class="demo-charts mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid">
-      <svg fill="currentColor" width="200px" height="200px" viewBox="0 0 1 1" class="demo-chart mdl-cell mdl-cell--4-col mdl-cell--3-col-desktop">
+        <div class="mdl-cell--12-col" style="height:15px"></div>
+      <div class="mdl-cell--3-col" style="">
+        <center>
+          <img src="images/bin-paper-big.jpg" style="align-items:center" alt="">
+          <h3 class='bin-desc'>3/10</h3>
+        </center>
+      </div>
+
+      <div class="mdl-cell--3-col" style="">
+        <center>
+          <img src="images/bin-glass-big.jpg" style="align-items:center" alt="">
+          <h3 class='bin-desc'>9/18</h3>
+        </center>
+      </div>
+
+      <div class="mdl-cell--3-col" style="">
+        <center>
+          <img src="images/bin-cans-big.jpg" style="align-items:center" alt="">
+          <h3 class='bin-desc'>4/15</h3>
+        </center>
+      </div>
+
+      <div class="mdl-cell--3-col" style="">
+        <center>
+          <img src="images/bin-plastic-big.jpg" style="align-items:center" alt="">
+          <h3 class='bin-desc'>1/9</h3>
+        </center>
+      </div>
+
+      <!-- <svg fill="currentColor" width="200px" height="200px" viewBox="0 0 1 1" class="demo-chart mdl-cell mdl-cell--4-col mdl-cell--3-col-desktop">
         <use xlink:href="#piechart" mask="url(#piemask)" />
-        <text x="0.5" y="0.5" font-family="Roboto" font-size="0.3" fill="#888" text-anchor="middle" dy="0.1">82<tspan font-size="0.2" dy="-0.07">%</tspan></text>
+        <text x="0.5" y="0.5" font-family="Roboto" font-size="0.3" fill="#888" text-anchor="middle" dy="0.1">3/10</text>
       </svg>
       <svg fill="currentColor" width="200px" height="200px" viewBox="0 0 1 1" class="demo-chart mdl-cell mdl-cell--4-col mdl-cell--3-col-desktop">
         <use xlink:href="#piechart" mask="url(#piemask)" />
@@ -16,18 +46,25 @@
       <svg fill="currentColor" width="200px" height="200px" viewBox="0 0 1 1" class="demo-chart mdl-cell mdl-cell--4-col mdl-cell--3-col-desktop">
         <use xlink:href="#piechart" mask="url(#piemask)" />
         <text x="0.5" y="0.5" font-family="Roboto" font-size="0.3" fill="#888" text-anchor="middle" dy="0.1">82<tspan dy="-0.07" font-size="0.2">%</tspan></text>
-      </svg>
+      </svg> -->
     </div>
+
+
+    <p class="mdl-cell--12-col stat-title">PAST MONTH</p>
     <div class="demo-graphs mdl-shadow--2dp mdl-color--white mdl-cell mdl-cell--8-col">
       <svg fill="currentColor" viewBox="0 0 500 250" class="demo-graph">
         <use xlink:href="#chart" />
       </svg>
-      <svg fill="currentColor" viewBox="0 0 500 250" class="demo-graph">
+      <!-- <svg fill="currentColor" viewBox="0 0 500 250" class="demo-graph">
         <use xlink:href="#chart" />
-      </svg>
+      </svg> -->
     </div>
+
+
+
+
     <div class="demo-cards mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet mdl-grid mdl-grid--no-spacing">
-      <div class="demo-updates mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
+      <!-- <div class="demo-updates mdl-card mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-desktop">
         <div class="mdl-card__title mdl-card--expand mdl-color--teal-300">
           <h2 class="mdl-card__title-text">Updates</h2>
         </div>
@@ -37,34 +74,34 @@
         <div class="mdl-card__actions mdl-card--border">
           <a href="#" class="mdl-button mdl-js-button mdl-js-ripple-effect">Read More</a>
         </div>
-      </div>
-      <div class="demo-separator mdl-cell--1-col"></div>
+      </div> -->
+      <!-- <div class="demo-separator mdl-cell--1-col"></div> -->
       <div class="demo-options mdl-card mdl-color--deep-purple-500 mdl-shadow--2dp mdl-cell mdl-cell--4-col mdl-cell--3-col-tablet mdl-cell--12-col-desktop">
         <div class="mdl-card__supporting-text mdl-color-text--blue-grey-50">
-          <h3>View options</h3>
+          <h3>Filter</h3>
           <ul>
             <li>
               <label for="chkbox1" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">
                 <input type="checkbox" id="chkbox1" class="mdl-checkbox__input">
-                <span class="mdl-checkbox__label">Click per object</span>
+                <span class="mdl-checkbox__label">Paper &nbsp; &emsp; &emsp; 100 Kg </span>
               </label>
             </li>
             <li>
               <label for="chkbox2" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">
                 <input type="checkbox" id="chkbox2" class="mdl-checkbox__input">
-                <span class="mdl-checkbox__label">Views per object</span>
+                <span class="mdl-checkbox__label">Glass &nbsp; &emsp; &emsp; 50 Kg</span>
               </label>
             </li>
             <li>
               <label for="chkbox3" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">
                 <input type="checkbox" id="chkbox3" class="mdl-checkbox__input">
-                <span class="mdl-checkbox__label">Objects selected</span>
+                <span class="mdl-checkbox__label">Cans &nbsp; &nbsp;&emsp; &emsp; 47 Kg</span>
               </label>
             </li>
             <li>
               <label for="chkbox4" class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect">
                 <input type="checkbox" id="chkbox4" class="mdl-checkbox__input">
-                <span class="mdl-checkbox__label">Objects viewed</span>
+                <span class="mdl-checkbox__label">Plastic &nbsp;&emsp;&emsp; 29 Kg</span>
               </label>
             </li>
           </ul>
@@ -87,7 +124,7 @@
     </mask>
     <g id="piechart">
       <circle cx=0.5 cy=0.5 r=0.5 />
-      <path d="M 0.5 0.5 0.5 0 A 0.5 0.5 0 0 1 0.95 0.28 z" stroke="none" fill="rgba(255, 255, 255, 0.75)" />
+      <!-- <path d="M 0.5 0.5 0.5 0 A 0.5 0.5 0 0 1 0.95 0.28 z" stroke="none" fill="rgba(255, 255, 255, 0.75)" /> -->
     </g>
   </defs>
 </svg>

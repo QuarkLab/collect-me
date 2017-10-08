@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <title>Material Design Lite</title>
+    <title>CollectMe</title>
 
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
@@ -55,19 +55,19 @@
           <div class="dropdown" style="float:right;">
             <button class="dropbtn mdl-color--grey-800">Filter</button>
             <div class="dropdown-content">
-              <label class="container">Glass
+              <label class="container"><span style="color:green">Glass</span>
                 <input id='chk-glass' type="checkbox" checked="checked" onclick="initMap()">
                 <span class="checkmark"></span>
               </label>
-              <label class="container">Metal
+              <label class="container"><span style="color:red">Metal</span>
                 <input id='chk-metal' type="checkbox" checked="checked" onclick="initMap()">
                 <span class="checkmark"></span>
               </label>
-              <label class="container">Paper
+              <label class="container"><span style="color:yellow">Paper</span>
                 <input id='chk-paper' type="checkbox" checked="checked" onclick="initMap()">
                 <span class="checkmark"></span>
               </label>
-              <label class="container">Plastic
+              <label class="container"><span style="color:blue">Plastic</span>
                 <input id='chk-plastic' type="checkbox" checked="checked" onclick="initMap()">
                 <span class="checkmark"></span>
               </label>
