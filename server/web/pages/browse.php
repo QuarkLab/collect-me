@@ -5,7 +5,7 @@ function initMap() {
 
   map = new google.maps.Map(document.getElementById('map'), {
     zoom: 16,
-    center: {lat:8.7563524, lng: 80.4943286}
+    center: {lat:8.758463, lng: 80.4943286}
   });
 
   window.directionsService = new google.maps.DirectionsService;
@@ -25,8 +25,8 @@ function initMap() {
 function setMarkers(){
   clearMarkers(markers);
   var markers = [];
-  markers.push({name: 'Marker 1', lat: 8.7585700, lng: 80.491870, type:'paper', place:'Sewalanka+Foundation, lk'});
-  markers.push({name: 'Marker 2', lat: 8.7626494, lng: 80.490561, type:'metal', place:'Pop+Yarl+Ice+Cream, lk'});
+  markers.push({name: 'Marker 1', lat: 8.7585700, lng: 80.491870, type:'metal', place:'Sewalanka+Foundation, lk'});
+  markers.push({name: 'Marker 2', lat: 8.7626494, lng: 80.490561, type:'paper', place:'Pop+Yarl+Ice+Cream, lk'});
   markers.push({name: 'Marker 3', lat: 8.758109, lng: 80.490282, type:'plastic', place:'Suvai+Aruvi, lk'});
   markers.push({name: 'Marker 4', lat: 8.757731, lng: 80.491550, type:'glass', place:'Recharge+Now+Dth+Systems, lk'});
   markers.push({name: 'Marker 5', lat: 8.758239, lng: 80.500592, type:'plastic', place:'Iluppayadi, lk'});
