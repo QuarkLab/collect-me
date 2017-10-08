@@ -1,7 +1,3 @@
-
-
-<button id="navigate" type="button" name="button">START</button>
-
 <div id="map" style="width:100%;height:100%;background:yellow"></div>
 <script>
 function initMap() {
