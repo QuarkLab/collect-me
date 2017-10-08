@@ -63,7 +63,7 @@
                 <input id='chk-metal' type="checkbox" checked="checked" onclick="initMap()">
                 <span class="checkmark"></span>
               </label>
-              <label class="container"><span style="color:yellow">Paper</span>
+              <label class="container"><span style="color:orange">Paper</span>
                 <input id='chk-paper' type="checkbox" checked="checked" onclick="initMap()">
                 <span class="checkmark"></span>
               </label>
