@@ -12,19 +12,21 @@
 
 
 <ion-content padding>
-  <button ion-button light (click)="addCard_plastic()">Plastic</button>
-  <button ion-button light (click)="addCard_glass()">Glass</button>
-  <button ion-button light (click)="addCard_paper()">Paper</button>
-  <button ion-button light (click)="addCard_metal()">Metal</button>
-  <button ion-button light (click)="addCard_wood()">Wood</button>
-
-  <ion-card *ngFor="let cards of newCards">
-        <ion-item >
+  <button class="g-btn" ion-button icon-left (click)="addPlasticCard()"><ion-img class="g-icn" src="../../assets/garbage/plastic.png"></ion-img>Plastic</button>
+  <button class="g-btn" ion-button icon-left (click)="addGlassCard()"><ion-img class="g-icn" src="../../assets/garbage/glass.png"></ion-img>Glass</button>
+  <button class="g-btn" ion-button icon-left (click)="addPaperCard()"><ion-img class="g-icn" src="../../assets/garbage/paper.png"></ion-img>Paper</button>
+  <button class="g-btn" ion-button icon-left (click)="addMetalCard()"><ion-img class="g-icn" src="../../assets/garbage/metal.png"></ion-img>Metal</button>
+  <button class="g-btn" ion-button icon-left (click)="addWoodCard()"><ion-img class="g-icn" src="../../assets/garbage/wood.png"></ion-img>Wood</button>
+  <button class="g-btn" ion-button icon-left (click)="addElectronicsCard()"><ion-img class="g-icn" src="../../assets/garbage/electronics.png"></ion-img>Electronics</button>
+  <button class="g-btn" ion-button icon-left (click)="addOtherCard()"><ion-img class="g-icn" src="../../assets/garbage/other.png"></ion-img>Other</button>
+  
+  <ion-card *ngFor="let cards of newCards; let i = index;">
+        <ion-item  class="i-item">
             <ion-card-header color="dark">
                 {{cards}}
             </ion-card-header>
               <ion-card-content>
-                  <!-- <ion-datetime displayFormat="MM/DD/YYYY" [(ngModel)]="myDate"></ion-datetime> -->
+              <!-- <ion-datetime displayFormat="MM/DD/YYYY" [(ngModel)]="myDate"></ion-datetime> -->
               Date: {{myDate}}
               <br>
               Time: {{time}}
@@ -32,12 +34,9 @@
               Company: {{company}}
               <br>
               Amount: {{cards.amount}}
-              <ion-fab right bottom>
-                <ion-item>Status</ion-item>
-              </ion-fab>
-              <ion-fab right top>
-                <button ion-fab  color="primary" (click)="changeAmount()">Amount</button>
-              </ion-fab>
+              <br>
+              <button class="i-b" ion-button color="secondary" outline round (click)="changeAmount(i)">Qty</button>
+              <button class="i-b" ion-button color="danger" outline round (click)="remove(i)">Remove</button>
             </ion-card-content>
         </ion-item>
     </ion-card>

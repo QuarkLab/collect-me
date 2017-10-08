@@ -9,18 +9,19 @@ import { IonicPage, NavController, NavParams, AlertController } from 'ionic-angu
 })
 export class BinPage {
 
-categories: any = ['Plastic','Paper','Glass','Wood','Metal'];
+categories: any = ['Plastic', 'Glass', 'Paper', 'Metal', 'Wood', 'Electronics', 'Other'];
 newCards: any = [];
-myDate : String = new Date().toISOString();
-time = "";
+newAmounts: any = [];
+myDate : String = new Date().toISOString().slice(0, 10);
+time = Date().slice(16,21);
 
   constructor(public navCtrl: NavController, public navParams: NavParams, public alertCtrl: AlertController){}
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad BinPage');
+    //
   }
 
-  changeAmount(amount){
+  changeAmount(cat){
         let prompt = this.alertCtrl.create({
             title: 'Add Amount',
             inputs: [{
@@ -33,10 +34,10 @@ time = "";
                 {
                     text: 'Save',
                     handler: data => {
-                        let index = this.newCards.indexOf(amount);
+                        let index = this.newCards.indexOf(cat);
 
                         if(index > -1){
-                          this.newCards[index] = data;
+                          this.newAmounts[index] = data;
                         }
                     }
                 }
@@ -47,26 +48,37 @@ time = "";
 
     }
 
-  addCard_plastic(){
-    this.newCards.push("Plastic");
-    console.log("card added" );
-  }
-  addCard_glass(){
-    this.newCards.push("Glass");
-    console.log("card added" );
-  }
-  addCard_paper(){
-    this.newCards.push("Paper");
-    console.log("card added" );
-  }
-  addCard_metal(){
-    this.newCards.push("Metal");
-    console.log("card added" );
-  }
-  addCard_wood(){
-    this.newCards.push("Wood");
-    console.log("card added" );
-  }
+    remove(no){
+      (this.newCards).splice(no, 1);
+    }
 
+  addPlasticCard(){
+    this.newCards.push("Plastic");
+    this.newAmounts.push(0);
+  }
+  addGlassCard(){
+    this.newCards.push("Glass");
+    this.newAmounts.push(0);
+  }
+  addPaperCard(){
+    this.newCards.push("Paper");
+    this.newAmounts.push(0);
+  }
+  addMetalCard(){
+    this.newCards.push("Metal");
+    this.newAmounts.push(0);
+  }
+  addWoodCard(){
+    this.newCards.push("Wood");
+    this.newAmounts.push(0);
+  }
+  addElectronicsCard(){
+    this.newCards.push("Electronics");
+    this.newAmounts.push(0);
+  }
+  addOtherCard(){
+    this.newCards.push("Other");
+    this.newAmounts.push(0);
+  }
 
 }
